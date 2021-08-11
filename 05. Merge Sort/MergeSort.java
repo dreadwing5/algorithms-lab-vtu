@@ -2,7 +2,7 @@ import java.util.Random;
 
 class MergeSort {
     // Merges two subarrays of arr[].
-    // First subarray is arr[l..m]
+    // First subarrays is arr[l..m]
     // Second subarray is arr[m+1..r]
     void merge(int arr[], int l, int m, int r) {
         // Find sizes of two subarrays to be merged
@@ -24,7 +24,7 @@ class MergeSort {
         // Initial indexes of first and second subarrays
         int i = 0, j = 0;
 
-        // Initial index of merged subarry array
+        // Initial index of merged subarray array
         int k = l;
         while (i < n1 && j < n2) {
             if (L[i] <= R[j]) {
